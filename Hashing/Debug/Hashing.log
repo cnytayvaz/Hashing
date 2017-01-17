@@ -1,0 +1,51 @@
+﻿Build started 17.1.2017 21:29:12.
+     1>Project "c:\Users\Cuneyt\documents\visual studio 2010\Projects\Hashing\Hashing\Hashing.vcxproj" on node 2 (build target(s)).
+     1>PrepareForBuild:
+         Creating directory "c:\users\cuneyt\documents\visual studio 2010\Projects\Hashing\Debug\".
+       InitializeBuildStatus:
+         Creating "Debug\Hashing.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /AI"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0" /Zi /clr /nologo /W3 /WX- /Od /Oy- /D "WIN32" /D _DEBUG /D "_UNICODE" /D "UNICODE" /EHa /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /TP /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Core.dll" /analyze- /errorReport:prompt bolenkalan.cpp kareortasi.cpp katlama.cpp main.cpp ogrenci.cpp yoklama.cpp /clr:nostdlib 
+         bolenkalan.cpp
+     1>bolenkalan.cpp(85): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(234) : see declaration of 'fopen'
+         kareortasi.cpp
+     1>kareortasi.cpp(94): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(234) : see declaration of 'fopen'
+         katlama.cpp
+     1>katlama.cpp(108): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(234) : see declaration of 'fopen'
+         main.cpp
+     1>main.cpp(26): warning C4996: 'getch': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _getch. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\conio.h(128) : see declaration of 'getch'
+     1>main.cpp(63): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(234) : see declaration of 'fopen'
+         ogrenci.cpp
+     1>ogrenci.cpp(43): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(234) : see declaration of 'fopen'
+     1>ogrenci.cpp(53): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(253) : see declaration of 'fscanf'
+         yoklama.cpp
+         Generating Code...
+     1>c:\users\cuneyt\documents\visual studio 2010\projects\hashing\hashing\yoklama.cpp(344): warning C4715: 'yoklama::bolenkalan_ara_varyok' : not all control paths return a value
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /clr /nologo /W3 /WX- /Od /Oy- /D "WIN32" /D _DEBUG /D "_UNICODE" /D "UNICODE" /EHa /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /TP /analyze- /errorReport:prompt "C:\Users\Cuneyt\AppData\Local\Temp\.NETFramework,Version=v4.0.AssemblyAttributes.cpp"
+         .NETFramework,Version=v4.0.AssemblyAttributes.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"c:\users\cuneyt\documents\visual studio 2010\Projects\Hashing\Debug\Hashing.exe" /INCREMENTAL /NOLOGO /MANIFEST /ManifestFile:"Debug\Hashing.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"c:\users\cuneyt\documents\visual studio 2010\Projects\Hashing\Debug\Hashing.pdb" /ASSEMBLYDEBUG /TLBID:1 /DYNAMICBASE /FIXED:NO /NXCOMPAT /MACHINE:X86 Debug\bolenkalan.obj
+         Debug\kareortasi.obj
+         Debug\katlama.obj
+         Debug\main.obj
+         Debug\ogrenci.obj
+         Debug\yoklama.obj
+         "Debug\.NETFramework,Version=v4.0.AssemblyAttributes.obj"
+         Hashing.vcxproj -> c:\users\cuneyt\documents\visual studio 2010\Projects\Hashing\Debug\Hashing.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"c:\users\cuneyt\documents\visual studio 2010\Projects\Hashing\Debug\Hashing.exe;#1" /manifest Debug\Hashing.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         Deleting file "Debug\Hashing.unsuccessfulbuild".
+         Touching "Debug\Hashing.lastbuildstate".
+     1>Done Building Project "c:\Users\Cuneyt\documents\visual studio 2010\Projects\Hashing\Hashing\Hashing.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:04.47
